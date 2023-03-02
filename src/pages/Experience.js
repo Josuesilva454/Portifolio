@@ -4,8 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import SchoolIcon from '@material-ui/icons/School'
-
+import SchoolIcon from '@material-ui/icons/School';
+import WorkIcon from '@material-ui/icons/Work';
 
 const Experience = () => {
   return (
@@ -14,6 +14,7 @@ const Experience = () => {
      <VerticalTimeline lineColor='blue'>
       <VerticalTimelineElement className='vertical-timeline-element--work' 
       date="Fevereiro 2013"
+      icon={<WorkIcon />}
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
  > <h3 className="vertical-timeline-element-title">Monitor Ti</h3>
  <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, MG</h4>
@@ -23,6 +24,8 @@ const Experience = () => {
  <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="2022"
+    icon={<WorkIcon />}
+
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
     <h3 className="vertical-timeline-element-title">Estagiario Ti</h3>
@@ -34,6 +37,8 @@ const Experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2022"
+    icon={<WorkIcon />}
+
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
   
   >
