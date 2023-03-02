@@ -2,6 +2,7 @@ import React from 'react'
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import { IconButton } from '@material-ui/core';
 import "../styles/Home.css";
 
 
@@ -14,9 +15,15 @@ const Home = () => {
         </h2>
         <div className="prompt">
           <p>Desenvolvedor Backend Java, apaixado com a tecnologia</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <IconButton>
+          <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/josue-silva-b26a26163/', '_blank')} />
+          </IconButton>
+          <IconButton>
+          <GithubIcon onClick={() => window.open('https://github.com/Josuesilva454', '_blank')} />
+          </IconButton>
+          <IconButton><EmailIcon/></IconButton>
+      
+        
         </div>
       </div>
       <div className="skills">
