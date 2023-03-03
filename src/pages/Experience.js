@@ -19,7 +19,7 @@ const Experience = () => {
  > <h3 className="vertical-timeline-element-title">Monitor Ti</h3>
  <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, MG</h4>
  <p>
- Pacote office, Web Designer, coreldraw, Montagem de computadores e desmonatgem, Formatação.
+ Pacote office, Web Designer, coreldraw, Montagem de Computadores e Desmontagem de Computadores, Formatação.
  </p></VerticalTimelineElement>
  <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -70,7 +70,8 @@ dados.
     <h4 className="vertical-timeline-element-subtitle">tecnólogo</h4>
     
     <p>
-      Frontend, Backend, Modelagem de software, Metodologia Ágeis, inteligencia artificial.
+      Frontend, Backend, Modelagem de software, 
+Gestão e qualidade de software, Inteligencia artificial, Sistemas computacionais e segurança, Engenharia de software.
     </p>
   </VerticalTimelineElement>
   
