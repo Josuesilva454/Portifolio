@@ -19,7 +19,7 @@ const Experience = () => {
  > <h3 className="vertical-timeline-element-title">Monitor Ti</h3>
  <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, MG</h4>
  <p>
-   User Experience, Visual Design
+ Pacote office, Web Designer, coreldraw, Montagem de computadores e desmonatgem, Formatação.
  </p></VerticalTimelineElement>
  <VerticalTimelineElement
     className="vertical-timeline-element--work"
@@ -28,10 +28,15 @@ const Experience = () => {
 
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
   >
-    <h3 className="vertical-timeline-element-title">Estagiario Ti</h3>
+    <h3 className="vertical-timeline-element-title">Estagiario Tecnologia Educação Infantil</h3>
     <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, MG</h4>
     <p>
-      User Experience, Visual Design
+Acompanhará os docentes do Componente
+Curricular Linguagem Digital. O estagiário, ao acompanhar
+os docentes, fará atendimentos individuais e coletivos aos
+discentes. Além disso, fará a verificação prévia da rede de
+dados e dos computadores com defeito para acionar o
+Suporte Técnico de Informática.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -46,7 +51,11 @@ const Experience = () => {
     <h4 className="vertical-timeline-element-subtitle">Belo Horizonte, MG</h4>
 
     <p>
-      Strategy, Social Media
+    Atividades: realizar a monitoração de backup em nuvem;
+monitorar os servidores espelhados; resolver
+problemas de suporte nível 1; instalar e configurar banco de
+dados.
+
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
@@ -58,10 +67,10 @@ const Experience = () => {
 
   >
     <h3 className="vertical-timeline-element-title">Graduação Análise e Desenvolvimento de Sistema</h3>
-    <h4 className="vertical-timeline-element-subtitle">Tecnologo</h4>
+    <h4 className="vertical-timeline-element-subtitle">tecnólogo</h4>
     
     <p>
-      frontend, Modelagem de software, Backend, Metodologia Ágeis
+      Frontend, Backend, Modelagem de software, Metodologia Ágeis, inteligencia artificial.
     </p>
   </VerticalTimelineElement>
   

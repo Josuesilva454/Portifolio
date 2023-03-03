@@ -11,10 +11,10 @@ const Home = () => {
     <div className='home'>
       <div className='about'>
         <h2>
-         Oi, Meu nome e Josué
+         Oi, Meu nome e Josué tenho 25 anos, atualmente sou Instrutor de ti, eu ja desenvolvi diversas api como Spring boot java e nodejs.
         </h2>
         <div className="prompt">
-          <p>Desenvolvedor Backend Java, apaixado com a tecnologia</p>
+          <p>Desenvolvedor Backend Java, apaixonado com a tecnologia</p>
           <IconButton>
           <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/josue-silva-b26a26163/', '_blank')} />
           </IconButton>
