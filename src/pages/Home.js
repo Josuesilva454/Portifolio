@@ -11,10 +11,10 @@ const Home = () => {
     <div className='home'>
       <div className='about'>
         <h2>
-         Oi. Meu nome é Josué tenho 25 anos, atualmente sou Instrutor de Ti, eu já desenvolvi diversas api como Spring boot java e nodejs.
+         Oi. Meu nome é Josué tenho 25 anos, eu já desenvolvi diversas api como Spring boot java e Laravel.
         </h2>
         <div className="prompt">
-          <p>Desenvolvedor Backend Java Spring Boot</p>
+          <p>Developer</p>
           <IconButton>
           <LinkedInIcon onClick={() => window.open('https://www.linkedin.com/in/josue-silva-b26a26163/', '_blank')} />
           </IconButton>
@@ -38,7 +38,7 @@ const Home = () => {
           <li className="item">
             <h2>Back-End</h2>
             <span>
-            Java, Spring boot java, JSF, kafka, Mysql, SqlServer, Docker.
+            Java, Spring boot java, Laravel, kafka, Mysql, SqlServer, Docker.
             </span>
           </li>
           <li className="item">
