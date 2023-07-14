@@ -11,7 +11,9 @@ const Home = () => {
     <div className='home'>
       <div className='about'>
         <h2>
-         Oi. Meu nome é Josué tenho 25 anos, eu já desenvolvi diversas api como Spring boot java e Laravel.
+         Oi. Meu nome é Josué tenho 26 anos. Sou apaixonado com a tecnologia.
+         <br></br>
+         Sou Formado em graduação Análise e desenvolvimento de sistema.
         </h2>
         <div className="prompt">
           <p>Developer</p>
