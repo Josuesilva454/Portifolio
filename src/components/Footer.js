@@ -2,6 +2,8 @@ import React from 'react'
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import GitHub from '@material-ui/icons/GitHub';
 import "../styles/Footer.css";
+import whats from "../img/whats.jpg";
+
 
 const Footer = () => {
   return (
@@ -12,6 +14,12 @@ const Footer = () => {
 
              </div>
         <p> &copy josuerosasilva49@gmail.com</p>
+        
+    <a className='whats' target='_blank' href='https://api.whatsapp.com/send?phone=5531973621344' > 
+   <img src= {whats} ></img>
+   
+ 
+    </a>
       
     </div>
   )

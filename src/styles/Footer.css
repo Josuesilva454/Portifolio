@@ -26,3 +26,19 @@
       font-size: 50px;
     }
   }
+  .footer a{
+    width:400px;
+    display: block;;
+    left: 800px;
+   
+}
+.footer img{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  
+
+}
+
+  
